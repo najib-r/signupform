@@ -76,7 +76,30 @@ input {
     background-color: rgb(248, 248, 248);
 }
 
-.desc {
-    height:37%
+.desc, .account {
+    height: 288px;
+}
+
+.text {
+    position: relative;
+    top: 115px;
+    left: 25px;
+}
+
+.container > p, .container > form {
+    padding-left: 25px;
+}
+
+.account > button {
+    position: relative;
+    left: 25px;
+    top: 15px;
+    background-color: #596D48;
+    width: 9rem;
+    color: white;
+}
+
+.error {
+    border: 1px solid red;
 }
 
